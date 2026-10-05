@@ -5,7 +5,9 @@ package com.javaintroduction;
 public class student {
 	int studentid = 001;
 	Integer marks = 100;
+	//unboxing wrapper to primitive
 	int studentid2 = marks;
+	//Autoboxing primitive to wrapper
 	Integer i = studentid;
 	boolean passstatus = true;
 
